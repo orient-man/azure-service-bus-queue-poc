@@ -1,0 +1,7 @@
+GENERATE-LOAD-SCRIPTS: ON
+FRAMEWORK: NET46
+NUGET
+  remote: https://www.nuget.org/api/v2
+    Microsoft.Azure.Amqp (2.0.5)
+    Microsoft.Azure.ServiceBus (0.0.3-preview)
+      Microsoft.Azure.Amqp (>= 2.0)
